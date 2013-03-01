@@ -28,6 +28,11 @@
                         </jarModule>
                         <jarModule>
                             <groupId>narayana.performance.ejb</groupId>
+                            <artifactId>ejb2</artifactId>
+                            <classifier>client</classifier>
+                        </jarModule>
+                        <jarModule>
+                            <groupId>narayana.performance.ejb</groupId>
                             <artifactId>api</artifactId>
                             <includeInApplicationXml>true</includeInApplicationXml>
                         </jarModule>
