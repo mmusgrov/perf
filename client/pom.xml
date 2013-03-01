@@ -72,12 +72,18 @@
             <artifactId>api</artifactId>
             <version>1.0</version>
         </dependency>
-        <dependency>
+<!--        <dependency>
             <groupId>narayana.performance.ejb</groupId>
             <artifactId>ear</artifactId>
             <version>1.0</version>
             <type>ear</type>
-        </dependency>
+        </dependency>-->
+<!--        <dependency>
+            <groupId>narayana.performance.ejb</groupId>
+            <artifactId>ejb</artifactId>
+            <version>1.0</version>
+            <type>ejb</type>
+        </dependency>-->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
