@@ -15,6 +15,7 @@
                 <artifactId>maven-ear-plugin</artifactId>
                 <version>2.4.2</version>
                 <configuration>
+                    <defaultLibBundleDir>lib</defaultLibBundleDir>
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
@@ -24,16 +25,6 @@
                         <jarModule>
                             <groupId>narayana.performance.ejb</groupId>
                             <artifactId>ejb</artifactId>
-                            <includeInApplicationXml>true</includeInApplicationXml>
-                        </jarModule>
-                        <jarModule>
-                            <groupId>narayana.performance.ejb</groupId>
-                            <artifactId>ejb2</artifactId>
-                            <classifier>client</classifier>
-                        </jarModule>
-                        <jarModule>
-                            <groupId>narayana.performance.ejb</groupId>
-                            <artifactId>api</artifactId>
                             <includeInApplicationXml>true</includeInApplicationXml>
                         </jarModule>
                     </modules>
@@ -51,6 +42,12 @@
             <groupId>narayana.performance.ejb</groupId>
             <artifactId>api</artifactId>
             <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>narayana.performance.ejb</groupId>
+            <artifactId>ejb2</artifactId>
+            <version>1.0</version>
+            <classifier>client</classifier>
         </dependency>
     </dependencies>
 </project>
