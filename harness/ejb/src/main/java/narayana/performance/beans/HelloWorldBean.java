@@ -31,13 +31,11 @@ public class HelloWorldBean implements HelloWorld {
         return "Hi " + name + " from " + getMsg();
     }
 
-    @Override
     public String doWork(String msg) {
         System.out.printf("%s%n", getMsg());
         return getMsg();
     }
 
-    @Override
     public String doWork(Result opts) {
         System.out.printf("%s%n", getMsg());
         return getMsg();
@@ -85,7 +83,6 @@ public class HelloWorldBean implements HelloWorld {
         return getMsg();
 
     }
-    @Override
     public String doWork(Result opts, boolean iiop, boolean ejb2, String namingProvider) {
         System.out.printf("%s%n", getMsg());
 
